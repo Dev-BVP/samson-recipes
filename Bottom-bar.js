@@ -37,13 +37,11 @@
 
   // 2. Define the links and create the <a> elements.
   const links = [
-    { text: 'Home', url: 'index' },
-    { text: 'About', url: 'about' },
-    { text: 'Staff', url: 'staff' },
-    { text: 'Information', url: 'info' },
+    { text: 'Home', url: 'index.html' },
+    { text: 'About', url: 'about.html' },
+    { text: 'Staff', url: 'staff.html' },
+    { text: 'Information', url: 'info.html' },
     { text: 'Status', url: 'https://stats.uptimerobot.com/yyyK0XGlqJ' },
-    { text: 'Update Log', url: 'updatelog.html' },
-    { text: 'Update Manager', url: 'updatelog_manager.html' }
   ];
 
   links.forEach(linkData => {
